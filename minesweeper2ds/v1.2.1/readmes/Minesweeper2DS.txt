@@ -1,0 +1,75 @@
+# Minesweeper 2DS v1.2 by Cid2mizard.
+
+Minesweeper is a single-player puzzle video game.
+The objective of the game is to clear a rectangular board containing hidden "mines" without detonating any of them, with help from clues about the number of neighboring mines in each field.
+The game originates from the 1960s, and has been written for many computing platforms in use today.
+
+
+Controls :
+	- Double Touch or D-pad + A : Menu Selection
+	- Short Touch or Short A : Discover case/Delete flag
+	- Long Touch or Long A or X : Place flag
+	- Holding L or R : Short Touch or Short A will Place flag
+	- Touch or A at discovered cell : Discover non-flagged neighbourhood
+	- B : Back to menu
+	- Start : Exit game
+	- Touch when game is over or Select : Restart game
+
+
+Changelog :
+v1.2.1 (by bayleef)
+	- Fixed columns and mines lines in custom mode
+
+v1.2 (by bayleef)
+	- Changed control keys
+	- Discover neighbourhood of revealed cells
+	- Highscore
+	- On click: highlight cells that will be discovered
+	- No game over during the first move
+
+v1.1.1
+	- Update ctrulib, now exit works with ninjhax 2.5.
+
+v1.1
+	- You don't need to place all the flags to win (hippy dave request).
+	- Reduce timing to put a flag (30 to 20) (hippy dave request).
+	- Add numbers columns & rows infos in custom mode.
+	- Update sf2dlib (restore original colors game clearer).
+	- Update readme.txt.
+	- Update Thanks (add Black Squirrel for rip gfx).
+	- Use sf2d_draw_texture_part from sf2dlib (optimize code).
+
+v1.0
+	- Using GPU Render, no more lost frames, thanks sf2dlib.
+	- Better gfx.
+	- Add Custom level.
+
+v0.8
+	- Change restart game to button X.
+	- Add Touch menu, forget in v0.6.
+	- Add D-pad + A Controls for game.
+	- Add 3ds, cia format (UniqueID 0x2101)
+
+v0.6
+	- Disable et delete gfxSet3D, not used.
+	- Change colors background for better tiles view.
+	- Add title menu.
+	- Add normal & hard mode.
+	- Fix bottom screen glitch appeared in 0.2, fps is now stable.
+
+v0.2
+	- Numbers & Emoticons size X3 and Jump to Top screen.
+	- Smiley Touch remplaced by Button A.
+	- Add background color for 2 screens.
+v0.1
+	- Initial Release. Only Grid 9*9 with 8 mines.
+
+
+Thanks :
+	- smea for Ninjhax.
+	- smea, yellows8, plutoo, fincs and mtheall for ctrulib.
+	- smea, mtheall, GEMISIS, Fluto and Arkhandar for hbmenu.
+	- WinterMute for devkitARM.
+	- Xerpi for sf2dlib.
+	- http://gbatemp.net/ for Forum 3DS Homebrew community.
+	- Black Squirrel for Windows Minesweeper sprites ripped.
